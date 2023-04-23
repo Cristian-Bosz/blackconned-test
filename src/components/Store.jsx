@@ -8,9 +8,8 @@ const Store = () => {
   return (
     <>
         <NavBar/>
-
-       <ProductList products={products} />
-      <Footer/>
+        <ProductList products={products} />
+        <Footer/>
 
     </>
   )
