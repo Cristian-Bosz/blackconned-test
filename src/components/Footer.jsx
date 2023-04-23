@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       
-<div className="container-fluid mt-5">
+<div className="container-fluid">
   
   <footer className="text-center text-lg-start text-white">
    

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Product from "./Product";
-import { motion } from "framer-motion"
 
 
 const ProductList = ({ products }) => {
@@ -22,11 +21,9 @@ const ProductList = ({ products }) => {
           <div className="row">
             
                 {currentProducts.map((product) => (     
-                   <motion.div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4"
-                   whileHover={{ scale: [null, 1.2, 1.1] }}
-                   transition={{  type: "spring", stiffness: 400, damping: 20 }}>
- <Product key={product.id} product={product} />
-                   </motion.div>
+                   <div className="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                      <Product key={product.id} product={product} />
+                   </div>
           
       ))}
             
