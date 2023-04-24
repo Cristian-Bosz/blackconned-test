@@ -58,15 +58,16 @@ footer{
   color: rgb(102, 183, 102)!important;
 }
 .navbutton{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
-  margin-left: 3em;
+  margin-left: 5em;
+  margin-top: 0.3em;
 }
 .navbutton:hover{
   color: rgb(102, 183, 102)!important;
 }
 .bi-shop{
-  font-size: 24px;
+  font-size: 30px;
   color: rgb(102, 183, 102);
 }
 .marcas{
@@ -180,6 +181,13 @@ footer{
   .navbutton{
     margin-left: 0em !important;
   }
+  .container-categories{
+    display: grid;
+    justify-content: center ;
+  }
+  .row-categories{
+    width: 24rem;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -199,6 +207,22 @@ footer{
   .product-wap-contain{
     display: grid;
     justify-content: center ;
+  } 
+  .container-categories{
+    display: grid;
+    justify-content: center ;
+  }
+  .row-categories{
+    width: 20rem;
+  }
+  .p-categories{
+    font-size: 18px;
+  }
+  .p-destacados{
+    font-size: 18px;
+  }
+  .p-about{
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -219,5 +243,13 @@ footer{
     display: grid;
     justify-content: center ;
   }
- 
+  .p-categories{
+    font-size: 18px;
+  }
+  .p-destacados{
+    font-size: 18px;
+  }
+  .p-about{
+    font-size: 18px;
+  }
 }

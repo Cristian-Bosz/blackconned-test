@@ -1,23 +1,23 @@
-import altavoz from "../assets/img/altavoces.jpg";
-import applew from "../assets/img/applewatch.jpg";
-import iphone from "../assets/img/iphone13.jpg";
-import galaxy from "../assets/img/galaxys21.webp";
-import ipad from "../assets/img/ipadpro.jpg";
-import nvidia from "../assets/img/nvidia.jpg";
-import sony from "../assets/img/sony.jpg";
-import samsung from "../assets/img/odissey.webp";
-import dron from "../assets/img/dron.png";
-import bici from "../assets/img/bicileta.jpeg";
-import laptop from "../assets/img/laptop.jpg"
-import Smartphone from "../assets/img/smartphone.jpg"
-import tv from "../assets/img/tv.webp"
-import tablet from "../assets/img/tablet.webp"
-import silla from "../assets/img/silla de oficina.webp"
-import camara from "../assets/img/camara.webp"
-import mac from "../assets/img/macbook.jpg"
-import Reloj from "../assets/img/reloj.jpg"
-import gafas from "../assets/img/gafas.webp"
-import teclado from "../assets/img/teclado.jpg"
+import altavoz from "../assets/img/shop/altavoces.jpg";
+import applew from "../assets/img/shop/applewatch.jpg";
+import iphone from "../assets/img/shop/iphone13.jpg";
+import galaxy from "../assets/img/shop/galaxys21.webp";
+import ipad from "../assets/img/shop/ipadpro.jpg";
+import nvidia from "../assets/img/shop/nvidia.jpg";
+import sony from "../assets/img/shop/sony.jpg";
+import samsung from "../assets/img/shop/odissey.webp";
+import dron from "../assets/img/shop/dron.png";
+import bici from "../assets/img/shop/bicileta.jpeg";
+import laptop from "../assets/img/shop/laptop.webp"
+import Smartphone from "../assets/img/shop/smartphone.jpg"
+import tv from "../assets/img/shop/tv.webp"
+import tablet from "../assets/img/shop/tablet.webp"
+import silla from "../assets/img/shop/silla de oficina.webp"
+import camara from "../assets/img/shop/camara.webp"
+import mac from "../assets/img/shop/macbook.jpg"
+import Reloj from "../assets/img/shop/reloj.jpg"
+import gafas from "../assets/img/shop/gafas.webp"
+import teclado from "../assets/img/shop/teclado.jpg"
 
 const products = [
     {

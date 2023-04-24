@@ -2,11 +2,11 @@ import React from 'react'
 import { motion } from "framer-motion"
 import NavBar from './NavBar'
 import Footer from './Footer'
-import samsung from '../assets/img/samsung.svg'
-import apple from '../assets/img/apple-logo.svg'
-import sony from '../assets/img/sony-logo.svg'
-import nvidia from '../assets/img/nvidia-logo.svg'
-import team from '../assets/img/Creative team-bro.svg'
+import samsung from '../assets/img/logos/samsung.svg'
+import apple from '../assets/img/logos/apple-logo.svg'
+import sony from '../assets/img/logos/sony-logo.svg'
+import nvidia from '../assets/img/logos/nvidia-logo.svg'
+import team from '../assets/img/logos/Creative team-bro.svg'
 const Aboutus = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Aboutus = () => {
             <div class="row align-items-center py-5">
                 <div class="col-md-8 text-white">
                     <h2 className='display-5 fw-bold'>About Us</h2>
-                    <p className='lead'>
+                    <p className='lead p-about'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

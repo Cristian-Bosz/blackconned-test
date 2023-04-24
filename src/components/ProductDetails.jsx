@@ -23,7 +23,7 @@ const ProductDetails = ({ products }) => {
         <div className="container pt-5 pb-5">
           <div className="row">
           <div className="col-12 col-lg-5 ">
-            <div className="col-12">
+            <div className="col-12 bg-white">
               <img className="w-100" src={product.image} alt={product.title} />
             </div>       
           </div>
@@ -66,7 +66,7 @@ const ProductDetails = ({ products }) => {
                                               <span class="btn btn-success rounded" id="btn-minus" onClick={() => updateQuantity(-1)}>-
                                               </span>
                                               </li>
-                                            <li class="list-inline-item"><span class="badge bg-dark" id="var-value">1</span></li>
+                                            <li class="list-inline-item"><span class="badge bg-white text-dark" id="var-value">1</span></li>
                                             <li class="list-inline-item ">
                                               <span class="btn btn-success rounded" id="btn-plus" onClick={() => updateQuantity(1)}>+</span>
                                             </li>
