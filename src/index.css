@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,6 +15,10 @@ code {
     monospace;
 }
 
+h2, h3{
+  font-family: 'Raleway', sans-serif;
+}
+
 .product-list{
   background-color: #fafafa;
 }
@@ -19,15 +26,7 @@ code {
   width: 18rem;
   border-radius: 5px;
 }
-.product-precio{
-  color: rgb(41, 41, 41);
-  font-weight: 600;
-}
-.product-p{
-  color: rgb(79, 78, 78);
-  font-weight: 500;
-  font-size: 18px;
-}
+
 footer{
   background-color: #212934 
 }
@@ -46,6 +45,7 @@ footer{
 .footer-title{
   font-size: 18px;
   font-weight: 600;
+  font-family: 'Raleway', sans-serif;
 }
 .navbar-principal{
   background-color: #fffff6;
@@ -62,6 +62,7 @@ footer{
   font-weight: 600;
   margin-left: 5em;
   margin-top: 0.3em;
+  font-family: 'Raleway', sans-serif;
 }
 .navbutton:hover{
   color: rgb(102, 183, 102)!important;
@@ -96,13 +97,14 @@ footer{
   padding-bottom: 30px;
 }
 .title-categorias{
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 60px;
-
+  font-family: 'Raleway', sans-serif;
 }
 .title-destacados{
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 60px;
+  font-family: 'Raleway', sans-serif;
 }
 .bi-person-fill{
   font-size: 24px;
@@ -110,7 +112,6 @@ footer{
 .bi-cart-fill{
   font-size: 24px;
 }
-
 .card.product-wap:hover .card .product-overlay {
   visibility: visible;
   opacity: 1;
@@ -131,7 +132,21 @@ footer{
 } 
 .productDetails-bg{
     background-color: #e9eef5;
-  }
+}
+.title-services{
+  font-family: 'Raleway', sans-serif;
+}
+.title-brands{
+  font-family: 'Raleway', sans-serif;
+}
+.title-aboutus{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.p-about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
 
 /* Breakpoint  formato pc XL, arriba de los 1200px*/
 @media screen and (max-width: 1200px) {
@@ -159,9 +174,6 @@ footer{
 @media screen and (max-width: 768px) {
   .carousel{
     margin: 0 !important;
-  }
-  footer{
-    background-color: #45526e
   }
   .bi-shop{
     font-size: 40px;

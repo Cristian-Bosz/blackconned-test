@@ -12,12 +12,10 @@ const Footer = () => {
     <div className="container p-4 pb-0">
      
       <section>
-     
-        <div className="row">
-        
-          <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h2 className="text-uppercase mb-4 font-weight-bold footer-title">
-              Company name
+        <div className="row">    
+          <div className="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h2 className=" mb-4 font-weight-bold footer-title logo">
+              <i class="bi bi-shop"></i> Bosz Store
             </h2>
             <p>
             Technical exam for the position of Front End developer JR at BlackConned.<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum nobis quibusdam accusamus dolor.
@@ -28,7 +26,7 @@ const Footer = () => {
           <hr className="w-100 clearfix d-md-none" />
 
           
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div className="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
             <h2 className="text-uppercase mb-4 font-weight-bold footer-title">Products</h2>
             <div className='my-2'>
                 <Link to={`/products/4`} className="text-white">iPad Pro</Link>
@@ -48,29 +46,29 @@ const Footer = () => {
           <hr className="w-100 clearfix d-md-none" />
 
       
-          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <div className="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
             <h2 className="text-uppercase mb-4 font-weight-bold footer-title">
               Useful links
             </h2>
 
             <div className='my-2'>
-                <a className="text-white">Your Account</a>
+                <Link to="#" className="text-white">Your Account</Link>
             </div>
             <div className='my-2'> 
-            <a className="text-white">Become an Affiliate</a>
+                <Link to="#" className="text-white">Become an Affiliate</Link>
             </div>
             <div className='my-2'>
-                <a className="text-white">Shipping Rates</a>
+                <Link to="#" className="text-white">Shipping Rates</Link>
             </div>
             <div className='my-2'>
-                <a className="text-white">Help</a>
+                <Link to="#" className="text-white">Help</Link>
             </div>
 
           </div>
 
           <hr className="w-100 clearfix d-md-none" />
 
-          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div className="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
             <h2 className="text-uppercase mb-4 font-weight-bold footer-title">Contact</h2>
             <p><i className="fas fa-home mr-3"></i> Vicente López, Buenos Aires, ARG</p>
             <p><i className="fas fa-envelope mr-3"></i> cristianbosz@hotmail.com</p>
@@ -95,18 +93,16 @@ const Footer = () => {
               </a>
             </div>
           </div>
-         
-
-          
+                
           <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
           
-            <a href='#' class="m-1 text-white" role="button"> 
+            <Link to='#' class="m-1 text-white" role="button"> 
             <i class="bi bi-whatsapp"></i>
-            </a>
+            </Link>
   
-            <a href='#' class="m-1 text-white" role="button"> 
+            <Link to='#' class="m-1 text-white" role="button"> 
             <i class="bi bi-instagram"></i>
-            </a>
+            </Link>
  
             <a href='https://github.com/Cristian-Bosz' class="m-1 text-white" role="button"> 
             <i class="bi bi-github"></i>
