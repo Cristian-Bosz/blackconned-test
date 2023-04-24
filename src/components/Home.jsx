@@ -13,7 +13,7 @@ const Home = () => {
 
        <section className='container my-5'>
         <div className='text-center'> 
-        <h2 className='display-5 title-categorias'>Categorías del mes</h2>
+        <h2 className='display-5 title-categorias'>Categories of The Month</h2>
         <p className='lead'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         </div>
        
@@ -44,7 +44,7 @@ const Home = () => {
        <article className='container-fluid productos-destacados'>
         <div className='container'>
           <div className='row text-center'>
-          <h2 className='display-5 title-destacados'>Produtos Destacados</h2>
+          <h2 className='display-5 title-destacados'>Features Products</h2>
           <p className='lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ad reprehenderit pariatur similique incidunt, molestias adipisci sit, unde rem odit sunt tempora iure! Explicabo, ad quasi incidunt sint quae aspernatur.</p>
         </div>
        <div class="row my-5">

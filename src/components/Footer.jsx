@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <>
       
-<div className="container-fluid">
+
   
   <footer className="text-center text-lg-start text-white">
-   
+   <div className="container-fluid">
     <div className="container p-4 pb-0">
      
       <section>
@@ -121,10 +121,10 @@ const Footer = () => {
       </section>
      
     </div>
-   
+   </div>
   </footer>
 
-</div>
+
 
     </>
   )

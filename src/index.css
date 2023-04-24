@@ -127,7 +127,11 @@ footer{
   color: #212934;
   font-size: 22px;
   font-weight: 500;
-}
+} 
+.productDetails-bg{
+    background-color: #e9eef5;
+  }
+
 /* Breakpoint  formato pc XL, arriba de los 1200px*/
 @media screen and (max-width: 1200px) {
 }
@@ -168,10 +172,7 @@ footer{
     margin-bottom: 2em;
     margin-top: 1em;
   }
-  .card{
-    width: 14rem;
-    border-radius: 20px;
-  }
+
   .card-p-destacados{
     width: 18rem;
     border-radius: 5px;
@@ -182,10 +183,6 @@ footer{
 }
 
 @media screen and (max-width: 575px) {
-  .card{
-    width: 16rem;
-    border-radius: 20px;
-  }
   .card-p-destacados{
     width: 18rem;
     border-radius: 5px;
@@ -205,10 +202,6 @@ footer{
   }
 }
 @media screen and (max-width: 375px) {
-  .card{
-    width: 12rem;
-    border-radius: 20px;
-  }
   .card-p-destacados{
     width: 18rem;
     border-radius: 5px;
@@ -226,4 +219,5 @@ footer{
     display: grid;
     justify-content: center ;
   }
+ 
 }

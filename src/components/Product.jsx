@@ -29,7 +29,7 @@ const Product = ({ product }) => {
                                             </li>
                                             <li class="text-muted text-right">{product.price}</li>
                                         </ul>
-                                        <a href="#" class="h2 text-decoration-none text-dark">{product.title}</a>
+                                        <Link to={`/products/${product.id}`} class="h2 text-decoration-none text-dark">{product.title}</Link>
                                         <p class="text-muted">Reviews (48)</p>
                                     </div>
                         </div>
