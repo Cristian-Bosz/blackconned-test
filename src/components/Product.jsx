@@ -24,7 +24,7 @@ const Product = ({ product }) => {
                                             <i class="text-warning bi bi-star-fill"></i>
                                             <i class="text-warning bi bi-star-fill"></i>
                                             <i class="text-warning bi bi-star-fill"></i>
-                                            <i class="text-muted bi bi-star-fill"></i>
+                                            <i class="text-warning bi bi-star-fill"></i>
                                             <i class="text-muted bi bi-star-fill"></i>
                                             </li>
                                             <li class="text-muted text-right">{product.price}</li>

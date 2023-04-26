@@ -15,10 +15,10 @@ const Footer = () => {
         <div className="row">    
           <div className="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
             <h2 className=" mb-4 font-weight-bold footer-title logo">
-              <i class="bi bi-shop"></i> Bosz Store
+              <i class="bi bi-shop"></i> Bsz Store
             </h2>
             <p>
-            Technical exam for the position of Front End developer JR at BlackConned.<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum nobis quibusdam accusamus dolor.
+            Technical exam for the position of Front End developer JR.<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum nobis quibusdam accusamus dolor.
             </p>
           </div>
         
@@ -89,7 +89,7 @@ const Footer = () => {
           <div className="col-md-7 col-lg-8 text-center text-md-start">
             <div className="p-3">
               <a className="text-white" href="https://portfolio-cristianbosz.vercel.app/"> 
-              © 2023, BlackConned test by Cristian Bösz
+              © 2023, By Cristian Bösz
               </a>
             </div>
           </div>

@@ -74,11 +74,11 @@ const ProductDetails = ({ products }) => {
                                       </div>
                                   
                                       <div class="row pb-3">
-                                          <div class="col d-grid">
-                                              <button class="btn btn-success btn-lg">Buy</button>
+                                          <div class="col-12 col-md-6 d-grid">
+                                              <button class="btn btn-success btn-lg btn-buy">Buy</button>
                                           </div>
-                                          <div class="col d-grid">
-                                              <button class="btn btn-outline-success btn-lg">Add To Cart</button>
+                                          <div class="col-12 col-md-6 d-grid">
+                                              <button class="btn btn-outline-success btn-lg btn-cart">Add To Cart</button>
                                           </div>
                                       </div>
                                   </div>

@@ -74,7 +74,7 @@ const Home = () => {
                                             <p class="card-text">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
                                             </p>
-                                            <p class="text-muted">Reviews (24)</p>
+                                            <p class="text-muted">Reviews (48)</p>
                                         </div>
                                 </div>
                             </div>
@@ -116,13 +116,13 @@ const Home = () => {
                                             <i class="text-warning bi bi-star-fill"></i>
                                             <i class="text-muted bi bi-star-fill"></i>
                                             </li>
-                                            <li class="text-muted text-right">$360.00</li>
+                                            <li class="text-muted text-right">$1299.00</li>
                                         </ul>
                                         <Link to="/products/1" class="h2 text-decoration-none text-dark">Macbook Pro</Link>
                                         <p class="card-text">
                                             Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.
                                         </p>
-                                        <p class="text-muted">Reviews (74)</p>
+                                        <p class="text-muted">Reviews (48)</p>
                                     </div>
                                 </div>
                             </div>
