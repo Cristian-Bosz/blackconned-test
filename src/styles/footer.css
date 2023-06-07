@@ -1,0 +1,25 @@
+footer{
+    background-color: #212934 
+  }
+  .bi-whatsapp{
+    font-size: 2em;
+  }
+  .bi-github{
+    font-size: 2em;
+  }
+  .bi-instagram{
+    font-size: 2em;
+  }
+  .bi-linkedin{
+    font-size: 2em;
+  }
+  .footer-title{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+  }
+  .logo{
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    color: rgb(102, 183, 102)!important;
+  }

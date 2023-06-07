@@ -1,0 +1,23 @@
+.card.product-wap:hover .card .product-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+@media screen and (max-width: 575px) {
+    .product-wap-contain{
+      display: grid;
+      justify-content: center ;
+    } 
+}
+@media screen and (max-width: 375px) {
+    .product-wap-contain{
+      display: grid;
+      justify-content: center ;
+    }
+}

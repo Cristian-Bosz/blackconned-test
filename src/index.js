@@ -8,6 +8,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './styles/navbar.css';
+import './styles/footer.css';
+import './styles/AboutUsBanner.css';
+import './styles/AboutUsServices.css';
+import './styles/AboutUsBrands.css';
+import './styles/Carrousel.css';
+import './styles/HomeCategoriesMonth.css';
+import './styles/HomeFeaturesProducts.css';
+import './styles/StoreFilter.css';
+import './styles/ProductDetails.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,6 @@
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .carousel{
+      margin: 0 !important;
+    }
+}

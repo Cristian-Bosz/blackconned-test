@@ -1,0 +1,40 @@
+.card-p-destacados{
+    width: 18rem;
+    border-radius: 5px;
+  }
+.productos-destacados{
+    background-color: #e9eef5 ;
+    padding-bottom: 30px;
+  }
+.title-destacados{
+    font-weight: 500;
+    padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .card-p-destacados{
+      width: 18rem;
+      border-radius: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .card-p-destacados{
+      width: 18rem;
+      border-radius: 5px;
+    }
+    .p-destacados{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .card-p-destacados{
+      width: 18rem;
+      border-radius: 5px;
+    }
+    .p-destacados{
+      font-size: 18px;
+    }
+  }

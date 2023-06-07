@@ -1,0 +1,12 @@
+.title-services{
+    font-family: 'Raleway', sans-serif;
+  }
+.servicios-icon {
+    transition: .3s;
+  }
+.servicios-icon:hover {
+    background: #69bb7e;
+  }
+.servicios-icon:hover, .servicios-icon:hover i {
+    color: #fff;
+}

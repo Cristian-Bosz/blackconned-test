@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../styles/Product.css';
 
 const Product = ({ product }) => {
   return (
@@ -7,30 +8,30 @@ const Product = ({ product }) => {
           <>
             <article>
               <div className="product-wap-contain">
-                 <div class="card mb-4 product-wap rounded-0 shadow">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src={product.image} alt={product.title}/>
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><Link class="btn btn-success text-white" to={`/products/${product.id}`}><i class="bi bi-heart-fill"></i></Link></li>
-                                        <li><Link class="btn btn-success text-white mt-2" to={`/products/${product.id}`}><i class="bi bi-eye-fill"></i></Link></li>
-                                        <li><Link class="btn btn-success text-white mt-2" to={`/products/${product.id}`}><i class="bi bi-cart-plus-fill"></i></Link></li>
+                 <div className="card mb-4 product-wap rounded-0 shadow">
+                            <div className="card rounded-0">
+                                <img className="card-img rounded-0 img-fluid" src={product.image} alt={product.title}/>
+                                <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul className="list-unstyled">
+                                        <li><Link className="btn btn-success text-white" to={`/products/${product.id}`}><i className="bi bi-heart-fill"></i></Link></li>
+                                        <li><Link className="btn btn-success text-white mt-2" to={`/products/${product.id}`}><i className="bi bi-eye-fill"></i></Link></li>
+                                        <li><Link className="btn btn-success text-white mt-2" to={`/products/${product.id}`}><i className="bi bi-cart-plus-fill"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                        <ul class="list-unstyled d-flex justify-content-between">
+                            <div className="card-body">
+                                        <ul className="list-unstyled d-flex justify-content-between">
                                             <li>
-                                            <i class="text-warning bi bi-star-fill"></i>
-                                            <i class="text-warning bi bi-star-fill"></i>
-                                            <i class="text-warning bi bi-star-fill"></i>
-                                            <i class="text-warning bi bi-star-fill"></i>
-                                            <i class="text-muted bi bi-star-fill"></i>
+                                            <i className="text-warning bi bi-star-fill"></i>
+                                            <i className="text-warning bi bi-star-fill"></i>
+                                            <i className="text-warning bi bi-star-fill"></i>
+                                            <i className="text-warning bi bi-star-fill"></i>
+                                            <i className="text-muted bi bi-star-fill"></i>
                                             </li>
-                                            <li class="text-muted text-right">{product.price}</li>
+                                            <li className="text-muted text-right">{product.price}</li>
                                         </ul>
-                                        <Link to={`/products/${product.id}`} class="text-decoration-none text-dark"><h2>{product.title}</h2></Link>
-                                        <p class="text-muted">Reviews (48)</p>
+                                        <Link to={`/products/${product.id}`} className="text-decoration-none text-dark"><h2>{product.title}</h2></Link>
+                                        <p className="text-muted">Reviews (48)</p>
                                     </div>
                         </div>
                

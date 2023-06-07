@@ -1,0 +1,35 @@
+.title-categorias{
+    font-weight: 500;
+    padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .container-categories{
+        display: grid;
+        justify-content: center ;
+      }
+    .row-categories{
+        width: 24rem;
+      }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .container-categories{
+        display: grid;
+        justify-content: center ;
+      }
+    .row-categories{
+        width: 20rem;
+      }
+    .p-categories{
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .p-categories{
+      font-size: 18px;
+    }
+  }

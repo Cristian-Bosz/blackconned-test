@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <>
-      
-
-  
+    <>  
   <footer className="text-center text-lg-start text-white">
    <div className="container-fluid">
     <div className="container p-4 pb-0">
@@ -15,7 +12,7 @@ const Footer = () => {
         <div className="row">    
           <div className="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
             <h2 className=" mb-4 font-weight-bold footer-title logo">
-              <i class="bi bi-shop"></i> Bsz Store
+              <i className="bi bi-shop"></i> Bsz Store
             </h2>
             <p>
             Technical exam for the position of Front End developer JR.<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nostrum nobis quibusdam accusamus dolor.
@@ -96,20 +93,20 @@ const Footer = () => {
                 
           <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
           
-            <Link to='#' class="m-1 text-white" role="button"> 
-            <i class="bi bi-whatsapp"></i>
+            <Link to='#' className="m-1 text-white" role="button"> 
+            <i className="bi bi-whatsapp"></i>
             </Link>
   
-            <Link to='#' class="m-1 text-white" role="button"> 
-            <i class="bi bi-instagram"></i>
+            <Link to='#' className="m-1 text-white" role="button"> 
+            <i className="bi bi-instagram"></i>
             </Link>
  
-            <a href='https://github.com/Cristian-Bosz' class="m-1 text-white" role="button"> 
-            <i class="bi bi-github"></i>
+            <a href='https://github.com/Cristian-Bosz' className="m-1 text-white" role="button"> 
+            <i className="bi bi-github"></i>
             </a>
    
-            <a href='https://www.linkedin.com/in/cristian-bosz/' class="m-1 text-white" role="button"> 
-            <i class="bi bi-linkedin"></i>
+            <a href='https://www.linkedin.com/in/cristian-bosz/' className="m-1 text-white" role="button"> 
+            <i className="bi bi-linkedin"></i>
             </a>
           </div>
          

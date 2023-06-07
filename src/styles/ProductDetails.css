@@ -1,0 +1,33 @@
+.productDetails-bg{
+    background-color: #e9eef5;
+}
+
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 768px) {
+    .btn-buy{
+      margin-top: 1em;
+    }
+    .btn-cart{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .btn-buy{
+      margin-top: 1em;
+    }
+    .btn-cart{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .btn-buy{
+      margin-top: 1em;
+    }
+    .btn-cart{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  }

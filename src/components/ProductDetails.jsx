@@ -1,7 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import NavBar from './NavBar';
-import Footer from './Footer';
 import $ from 'jquery';
 
 const ProductDetails = ({ products }) => {
@@ -21,7 +19,7 @@ const ProductDetails = ({ products }) => {
 
   return (
     <>
-    <NavBar/>
+    
       <section className="container-fluid productDetails-bg">
         <div className="container pt-5 pb-5">
           <div className="row">
@@ -31,71 +29,71 @@ const ProductDetails = ({ products }) => {
               </div>       
             </div>
 
-            <div class="col-12 col-lg-7">
-                <div class="card">
-                  <div class="card-body">
-                    <h2 class="display-6">{product.title}</h2>
-                      <h3 class="display-5 py-2">{product.price}</h3>
-                        <p class="py-2">
-                              <i class="text-warning bi bi-star-fill"></i>
-                              <i class="text-warning bi bi-star-fill"></i>
-                              <i class="text-warning bi bi-star-fill"></i>
-                              <i class="text-warning bi bi-star-fill"></i>
-                              <i class="text-muted bi bi-star-fill"></i>
-                          <span class="list-inline-item text-dark lead mx-1">Rating 4.8 | 36 Comments</span>
+            <div className="col-12 col-lg-7">
+                <div className="card">
+                  <div className="card-body">
+                    <h2 className="display-6">{product.title}</h2>
+                      <h3 className="display-5 py-2">{product.price}</h3>
+                        <p className="py-2">
+                              <i className="text-warning bi bi-star-fill"></i>
+                              <i className="text-warning bi bi-star-fill"></i>
+                              <i className="text-warning bi bi-star-fill"></i>
+                              <i className="text-warning bi bi-star-fill"></i>
+                              <i className="text-muted bi bi-star-fill"></i>
+                          <span className="list-inline-item text-dark lead mx-1">Rating 4.8 | 36 Comments</span>
                         </p>
-                              <ul class="list-inline">
-                                  <li class="list-inline-item">
+                              <ul className="list-inline">
+                                  <li className="list-inline-item">
                                       <p className="fw-bold">Brand:</p>
                                   </li>
-                                  <li class="list-inline-item">
-                                      <p class="text-muted"><strong>{product.brand}</strong></p>
+                                  <li className="list-inline-item">
+                                      <p className="text-muted"><strong>{product.brand}</strong></p>
                                   </li>
                               </ul>
                             <form>
                                 
-                                  <div class="row">             
-                                      <div class="col-auto">
-                                          <ul class="list-inline pb-3">
-                                              <li class="list-inline-item text-right fw-bold">
+                                  <div className="row">             
+                                      <div className="col-auto">
+                                          <ul className="list-inline pb-3">
+                                              <li className="list-inline-item text-right fw-bold">
                                                   Quantity
                                                   <input type="hidden" name="product-quanity" id="product-quanity" value="1"/>
                                               </li>
-                                              <li class="list-inline-item ">
-                                                <span class="btn btn-success rounded" id="btn-minus" onClick={() => updateQuantity(-1)}>-</span>
+                                              <li className="list-inline-item ">
+                                                <span className="btn btn-success rounded" id="btn-minus" onClick={() => updateQuantity(-1)}>-</span>
                                               </li>
-                                              <li class="list-inline-item">
-                                                <span class="badge bg-white text-dark" id="var-value">1</span>
+                                              <li className="list-inline-item">
+                                                <span className="badge bg-white text-dark" id="var-value">1</span>
                                               </li>
-                                              <li class="list-inline-item ">
-                                                <span class="btn btn-success rounded" id="btn-plus" onClick={() => updateQuantity(1)}>+</span>
+                                              <li className="list-inline-item ">
+                                                <span className="btn btn-success rounded" id="btn-plus" onClick={() => updateQuantity(1)}>+</span>
                                               </li>
                                           </ul>
                                       </div>
                                   
-                                      <div class="row pb-3">
-                                          <div class="col-12 col-md-6 d-grid">
-                                              <button class="btn btn-success btn-lg btn-buy">Buy</button>
+                                      <div className="row pb-3">
+                                          <div className="col-12 col-md-6 d-grid">
+                                              <button className="btn btn-success btn-lg btn-buy">Buy</button>
                                           </div>
-                                          <div class="col-12 col-md-6 d-grid">
-                                              <button class="btn btn-outline-success btn-lg btn-cart">Add To Cart</button>
+                                          <div className="col-12 col-md-6 d-grid">
+                                              <button className="btn btn-outline-success btn-lg btn-cart">Add To Cart</button>
                                           </div>
                                       </div>
                                   </div>
                               </form>
                               <p className="fw-bold">Description:</p>
                               <p className="lead">{product.description}</p>
-                              <ul class="list-inline">
-                                  <li class="list-inline-item">
+                              <ul className="list-inline">
+                                  <li className="list-inline-item">
                                       <p className="fw-bold">Avaliable Color :</p>
                                   </li>
-                                  <li class="list-inline-item">
-                                      <p class="text-muted"><strong>White / Black</strong></p>
+                                  <li className="list-inline-item">
+                                      <p className="text-muted"><strong>White / Black</strong></p>
                                   </li>
                               </ul>
 
                               <p className="fw-bold">Specification:</p>
-                              <ul class="list-unstyled pb-3 lead">
+                              <ul className="list-unstyled pb-3 lead">
                                   <li>Lorem ipsum dolor sit</li>
                                   <li>Amet, consectetur</li>
                                   <li>Adipiscing elit,set</li>
@@ -110,8 +108,7 @@ const ProductDetails = ({ products }) => {
           </div>
       </div> 
     </section>
-      
-      <Footer/>
+    
     </>
   );
 };

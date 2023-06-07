@@ -1,0 +1,89 @@
+
+.navbar-principal{
+    background-color: #fffff6;
+    height: 5em;
+  }
+  .logo{
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+    color: rgb(102, 183, 102)!important;
+  }
+  .navbutton{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5em;
+    margin-top: 0.3em;
+    font-family: 'Raleway', sans-serif;
+  }
+  .navbutton:hover{
+    color: rgb(102, 183, 102)!important;
+  }
+  .bi-shop{
+    font-size: 30px;
+    color: rgb(102, 183, 102);
+  }
+  .bi-person-fill{
+    font-size: 24px;
+  }
+  .bi-cart-fill{
+    font-size: 24px;
+  }
+
+  /* Breakpoint  formato pc LG, arriba de los 991px*/
+@media screen and (max-width: 992px) {
+    .bi-shop{
+      font-size: 40px;
+    }
+    .bi-cart{
+      font-size: 20px;
+    }
+    .nav-Buttons{
+      margin-bottom: 2em;
+      margin-top: 1em;
+    }
+    .navbutton{
+      margin-left: 0em !important;
+    }
+   
+  }
+  
+  /* Breakpoint formato tablet*/
+  @media screen and (max-width: 768px) {
+    .bi-shop{
+      font-size: 40px;
+    }
+    .bi-cart{
+      font-size: 20px;
+    }
+    .nav-Buttons{
+      margin-bottom: 2em;
+      margin-top: 1em;
+    }
+    .navbutton{
+      margin-left: 0em !important;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .navbutton{
+      margin-left: 0em !important;
+    }
+    .bi-shop{
+      font-size: 30px;
+    }
+    .logo{
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .navbutton{
+      margin-left: 0em !important;
+    }
+    .bi-shop{
+      font-size: 25px;
+    }
+    .logo{
+      font-size: 15px;
+    }
+
+  }

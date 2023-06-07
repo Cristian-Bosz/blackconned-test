@@ -5,8 +5,8 @@ const Carrousel = () => {
   return (
     <>
       <div id="carouselExampleSlidesOnly" className="carousel slide mx-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+        <div className="carousel-inner">
+            <div className="carousel-item active">
             <img src={banner2} className="d-block w-100" alt="banner del home"/>
             </div>
         </div>
